@@ -207,7 +207,7 @@ def validate_time_str(t):
     help="浏览器可执行文件路径（不传则使用系统默认浏览器）"
 )
 @click.option(
-    "--time", "-t",
+    "--time", "-t", "run_time",
     default="07:00",
     show_default=True,
     help="每天几点执行签到，格式 HH:MM（例如 07:00 / 23:30）"
